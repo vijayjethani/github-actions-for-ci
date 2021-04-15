@@ -13,10 +13,14 @@ name: "CodeQL"
 
 on:
   push:
-    branches: [  vijayjethani-patch-2  ]
-  pull_request:
+    branches:
+      codeql
+    paths:
+      readmeforcodeql
+      
+#  pull_request:
     # The branches below must be a subset of the branches above
-    branches: [  vijayjethani-patch-2  ]
+#    branches: [  vijayjethani-patch-2  ]
 #  schedule:
 #    - cron: '33 3 * * 2'
 
